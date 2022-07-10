@@ -16,4 +16,4 @@ if(age <= 12){
     message = "Being an adult isn't all it's cracked up to be, huh?";
 }
 
-document.write('Hello ' + username + '! ' + message);
+document.write('Hello ' + yourname + '! ' + message);
