@@ -33,7 +33,7 @@ document.write('Hello ' + yourname + '! ' + message);
 greet();
 
 function getEmail(){
-let emailReturn=prompt ('What is your email? (make sure it has an @' );
+let emailReturn=prompt ('What is your email? (make sure it has an @)' );
 console.log(emailReturn);
 return emailReturn;
 }    
