@@ -28,3 +28,14 @@ console.log('Hello there ' + yourname);
 }
 
 document.write(greet() + ' ! ' + message);
+
+function askforemail(){
+    let email=prompt ('What is your email?');
+    console.log(email);
+
+    prompt ("Are you sure it's correct? y/n");
+    let verifyemail;
+
+    if (verifyemail = "y"){message = "Great!";}
+    else {prompt ('Please enter your email again.')}
+}
