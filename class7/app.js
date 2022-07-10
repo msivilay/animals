@@ -19,4 +19,12 @@ if(age <= 12){
     message = "Being an adult isn't all it's cracked up to be, huh? Enjoy reading about some animals.";
 }
 
-document.write('Hello ' + yourname + '! ' + message);
+//document.write('Hello ' + yourname + '! ' + message);
+//new function below replaces the line above
+//is is a good function? no, but it is a function
+
+function greet(){
+console.log('Hello there ' + yourname);
+}
+
+document.write(greet() + ' ! ' + message);
