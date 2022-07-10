@@ -63,3 +63,4 @@ console.log(numKoala);
 for (let i=0; i<numKoala; i++){
     document.write('<img src="koala.png"/>');
 }
+// Koala image credit: https://www.flaticon.com/free-icon/koala_141742#
